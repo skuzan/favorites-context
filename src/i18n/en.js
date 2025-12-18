@@ -13,6 +13,12 @@ export default {
       shipping: "Shipping",
       returns: "Returns",
     },
+    nav: {
+      newArrivals: "New Arrivals",
+      categories: "Categories",
+      deals: "Deals",
+      gifts: "Gifts",
+    },
   },
   categories: {
     electronics: "Electronics",

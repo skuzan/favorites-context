@@ -14,10 +14,10 @@ const Navbar = () => {
       <div className="navbar__left">
         <div className="navbar__logo">MyShop</div>
         <div className={`navbar__menus ${isMenuOpen ? "is-open" : ""}`}>
-          <span className="navbar__menuItem">Yeni Gelenler</span>
-          <span className="navbar__menuItem">Kategoriler</span>
-          <span className="navbar__menuItem">Kampanyalar</span>
-          <span className="navbar__menuItem">Hediye</span>
+          <span className="navbar__menuItem">{t("ui.nav.newArrivals")}</span>
+          <span className="navbar__menuItem">{t("ui.nav.categories")}</span>
+          <span className="navbar__menuItem">{t("ui.nav.deals")}</span>
+          <span className="navbar__menuItem">{t("ui.nav.gifts")}</span>
         </div>
       </div>
       <div className="navbar__right">

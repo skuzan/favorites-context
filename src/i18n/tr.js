@@ -13,6 +13,12 @@ export default {
       shipping: "Kargo",
       returns: "İade",
     },
+    nav: {
+      newArrivals: "Yeni Gelenler",
+      categories: "Kategoriler",
+      deals: "Kampanyalar",
+      gifts: "Hediye",
+    },
   },
   categories: {
     electronics: "Elektronik",
