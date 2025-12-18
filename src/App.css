@@ -99,6 +99,7 @@ body::before {
   top: 0;
   z-index: 10;
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+  width: 100%;
 }
 
 .navbar__left {
@@ -480,6 +481,20 @@ body::before {
   align-items: center;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(6px);
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .navbar,
+  .footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 18px;
+  }
+
+  .footer {
+    margin: 40px auto 0;
+  }
 }
 
 .footer__logo {
